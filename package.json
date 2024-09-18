@@ -1,0 +1,43 @@
+{
+  "name": "@daily/frontend",
+  "version": "0.2.0",
+  "author": "frontend",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.1.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "daisyui": "^4.12.10",
+    "date-fns": "^4.1.0",
+    "immer": "^10.1.1",
+    "lucide-react": "^0.441.0",
+    "next": "^14.2.12",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.7",
+    "autoprefixer": "^10.4.20",
+    "eslint": "8.7.0",
+    "eslint-config-next": "^14.2.12",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
